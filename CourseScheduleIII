@@ -1,6 +1,6 @@
 class Solution {
         public int scheduleCourse(int[][] courses) {
-            //
+
             //Sort based on endTime
             Arrays.sort(courses, (a,b)->a[1]-b[1]);
             //push descending value in pq
